@@ -23,13 +23,7 @@ h1 {
 p {
 	font-family: Cormorant Garamond, serif;
 }
-div#container1{
-	height: 100vh;
-	width: 70%;
-	margin-left: 20%;
-	background-color: white;
-	padding: 5px 10px;
-}
+
 div#container{
 	height: 100vh;
 	width: 70%;
