@@ -1,9 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cormorant+Garamond&display=swap');
 
 h1 {
-	font-family: Archivo Black, sans-serif;
+	font-family: Asap Condensed, sans-serif;
 }
 
 p {
 	font-family: Cormorant Garamond, serif;
+}
+
+div#container{
+	height: 100vh;
+	width: 70%;
+	margin-left: 20%;
+	background-color: white;
+	padding: 5px 10px;
+}
+
+nav {
+	position: fixed;
+	height: 50%;
+	width: 15%;
+	padding: 5px 10px;
+	background-color: #E3DDD0;
+	color: black;
+	font-family: serif;
+
+}
+		
+nav >div :hover{
+	background-color: #464135;
+	color: white;
+	width: 100%;
+
 }
