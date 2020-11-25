@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Oswald&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	color: black;
+	display: block;
+	text-decoration: none;
+}
+	
+
+nav {
+	position: fixed;
+	width: 180px;
+	height: 100%;
+	padding:30px 20px;
+	background-color: #94E8DA;
+	color: black;
+	font-family: 'Crimson Text', serif;
+	font-size: 2.5vh;
+}
+nav > div {
+	padding: 1vh 0;
+	text-align: center;
+
+}
+
+nav > div:hover{
+	background-color: #FFDD5F;
+	color: black;
+	border-bottom: 4px solid#FFA600 ;
+}
+div#index{
+	text-align: center;
+	margin-left: 180px;
+	height: 100%;
+	width:86%;
+	padding: 30px;
+	font-size: 3vh;
+	background-color: #E8F4F2;
+	font-family: 'Oswald', sans-serif;
+}
+h1{
+	background-color: #0B3223;
+	color: white;
+
+}
