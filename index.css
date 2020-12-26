@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Viga&display=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Viga&display=Cormorant+Garamond&Nanum+Myeongjo&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -7,20 +7,69 @@
 
 html{
 	width: 100%;
-	height: 100%;
-	overflow-x: hidden;
-	overflow-y: scroll;
+	height: 100%;	
 }
+
 body{
-	position: absolute;
 	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color: #F2F0E9;
 	width: 100%;
 	height: 100%;
 	
 }
+a{
+	color: black;
+	display: block;
+	padding: 3px;
+	text-decoration: none;
+}
+
+nav {
+	position: fixed;
+	display: inline-block;
+	top: 0;
+	width: 100vw;
+	background-color:#F2F0E9;
+	color: black;
+	font-family: serif;
+	font-size: 2vh;
+	z-index: 1;
+	vertical-align: center;
+
+}
+
+nav > div {
+	padding: 2vh;
+	width: 20vw;
+	text-align: center;
+	display: block;
+	float: left;
+}
+
+		
+nav > div :hover{
+	background-color: #F2F0E9;
+	color: #333333;
+	border-bottom: 2px solid black;
+
+}
 
 h1 {
-	font-family: Asap Condensed, sans-serif;
+	margin-top: 3vh;
+	text-align: center;
+	font-family: Cormorant Garamond, serif;
+	font-size: 4.8vh;
+	letter-spacing: 2.4px;
+} 
+
+h3 {
+	position: fixed;
+	margin-top: 60px;
+	margin-left: 0;
+	font-size: 1.8vh;
+	letter-spacing: 2.7px;
+	transform: rotate(270deg);
 }
 
 p {
@@ -33,29 +82,94 @@ h2 {
 	font-family:  Cormorant Garamond, serif;
 }
 
-.banner {
-	position: fixed;
-	width: 100%;
-	padding:20px 0;
-	text-align: center;
+section#line{
+	height:1px;
+	width:80vw;
+	margin: 8vh 10vw 0;
 	background-color: black;
-	color: white;
-
 }
+
+.background{
+	width: 70vw;
+	margin-top: 3vh;
+	margin-left: 14vw;
+}
+
+
 
 div#container{
-	position: fixed;
-	text-align: center;
-	height: 100%;
-	width:85%;
-	margin-left: 15%;
-	margin-top: 7%;
-	background-color: #C4D5D1;
+	position: absolute;
+	text-align: left;
+	height: 40vh;
+	width:30vw;
+	margin-left: 530px;
+	top: 250px;
+	background-color: white;
+	opacity: 0.8;
+	box-shadow: 2px 4px 8px #656565;
 	color: black;
-	padding: 30px 40px;
-	font-size: 3vh;
-	font-family: 'Viga', sans-serif;
+	padding: 90px 40px;
+	font-size: 1.8vh;
+	font-family: font-family: 'Nanum Myeongjo', serif;
+	letter-spacing: 1.3px;
+	text-align: center;
 }
+
+section#line2{
+	height:1px;
+	width:80vw;
+	margin: 7vh 10vw 0;
+	background-color: black;
+}
+
+div#picture{
+	width: 15vw;
+	margin-top: 3vh;
+	margin-left: 10vw;
+
+}
+
+div#picture2{
+	position: absolute;
+	width: 15vw;
+	top: 675px;
+	right: 33vw;
+
+}
+
+div#picture3{
+	width: 15vw;
+	margin-top: 3vh;
+	margin-left: 10vw;
+
+}
+
+div#picture4{
+	position: absolute;
+	width: 15vw;
+	top: 1161px;
+	right: 33vw;
+
+}
+
+
+div#picture:hover{
+	opacity: 0.8;
+}
+
+div#picture2:hover{
+	opacity: 0.8;
+}
+
+div#picture3:hover{
+	opacity: 0.8;
+}
+
+div#picture4:hover{
+	opacity: 0.8;
+}
+
+
 div#container2 {
 	position: fixed;
 	text-align: center;
@@ -73,7 +187,7 @@ div#home{
 	text-align: center;
 	height: 50%;
 	width: 30%;
-	margin-left: 40%;
+	margin-left: 20%;
 	margin-top: 8%;
 
 }
@@ -82,7 +196,7 @@ div#home2{
 	text-align: center;
 	height: 50%;
 	width: 30%;
-	margin-left: 40%;
+	margin-left: 20%;
 	margin-top: 3%;
 
 }
@@ -91,7 +205,7 @@ div#home3{
 	text-align: center;
 	height: 50%;
 	width: 30%;
-	margin-left: 40%;
+	margin-left: 20%;
 	margin-top: 3%;
 }
 section#Renaissance{
@@ -132,36 +246,4 @@ section#modern{
 	padding: 20px 5px;
 	font-size: 4vh;
 	font-family: Cormorant Garamond, serif;
-}
-
-
-a{
-	color: black;
-	display: block;
-	text-decoration: none;
-}
-
-nav {
-	position: fixed;
-	height: 100%;
-	width: 15%;
-	padding: 5px 10px;
-	background-color: #E3DDD0;
-	color: black;
-	font-family: serif;
-	font-size: 2.5vh;
-
-}
-
-nav > div {
-	padding: 1vh 0;
-	text-align: center;
-}
-
-		
-nav > div :hover{
-	background-color: #464135;
-	color: white;
-	border-bottom: 4px solid white;
-
 }
