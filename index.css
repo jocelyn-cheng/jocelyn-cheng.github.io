@@ -34,16 +34,15 @@ nav {
 	color: black;
 	font-family: serif;
 	font-size: 2vh;
-	z-index: 1;
-	vertical-align: center;
+	z-index: 1;	
 
 }
 
 nav > div {
 	padding: 2vh;
-	width: 20vw;
+	width: 16.5vw;
 	text-align: center;
-	display: block;
+	display: inline;
 	float: left;
 }
 
@@ -66,7 +65,7 @@ h1 {
 h3 {
 	position: fixed;
 	margin-top: 60px;
-	margin-left: 0;
+	left: 1vw;
 	font-size: 1.8vh;
 	letter-spacing: 2.7px;
 	transform: rotate(270deg);
@@ -90,12 +89,11 @@ section#line{
 }
 
 .background{
-	width: 70vw;
+	width: 80vw;
+	height: 78vh;
 	margin-top: 3vh;
-	margin-left: 14vw;
+	margin-left: 10vw;
 }
-
-
 
 div#container{
 	position: absolute;
@@ -114,7 +112,6 @@ div#container{
 	letter-spacing: 1.3px;
 	text-align: center;
 }
-
 section#line2{
 	height:1px;
 	width:80vw;
@@ -122,50 +119,116 @@ section#line2{
 	background-color: black;
 }
 
-div#picture{
-	width: 15vw;
-	margin-top: 3vh;
-	margin-left: 10vw;
+.onetwo{
+	display: inline-block;
+	width: 70vw;
+	height: 500px;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	padding-top: 4vh;
+	overflow: hidden;
+}
+
+.threefour{
+	display: inline-block;
+	width: 70vw;
+	height: 500px;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	padding-top: 4vh;
+	overflow: hidden;	
+}
+
+.five{
+	display: inline-block;
+	width: 70vw;
+	height: 560px;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	padding-top: 4vh;
+	padding-bottom: 3vh;
+	overflow: hidden;	
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+div#pictured{
+	width: 480px;
+	height: 480px;
+	float: left;
+}
+div#picture2d{
+	width: 480px;
+	height: 480px;
+	float: right;
+}
+
+div#picture3d{
+	width: 480px;
+	height: 480px;
+	float: left;
+}
+div#picture4d{
+	width: 480px;
+	height: 480px;
+	float: right;
+}
+
+div#picture5d{
+	width: 480px;
+	height: 480px;
+	float: left;
+}
+
+.picture{
+	width: 480px;
+	height: 480px;
 
 }
 
-div#picture2{
-	position: absolute;
-	width: 15vw;
-	top: 675px;
-	right: 33vw;
+.picture2{
+	width: 480px;
+	height: 480px;
+}
+
+.picture3{
+	width: 480px;
+	height: 480px;
 
 }
 
-div#picture3{
-	width: 15vw;
-	margin-top: 3vh;
-	margin-left: 10vw;
+.picture4{
+	width: 480px;
+	height: 480px;
 
 }
 
-div#picture4{
-	position: absolute;
-	width: 15vw;
-	top: 1161px;
-	right: 33vw;
+.picture5{
+	width: 480px;
+	height: 480px;
 
 }
 
 
-div#picture:hover{
+div#pictured:hover{
 	opacity: 0.8;
 }
 
-div#picture2:hover{
+div#picture2d:hover{
 	opacity: 0.8;
 }
 
-div#picture3:hover{
+div#picture3d:hover{
 	opacity: 0.8;
 }
 
-div#picture4:hover{
+div#picture4d:hover{
+	opacity: 0.8;
+}
+
+div#picture5d:hover{
 	opacity: 0.8;
 }
 
