@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Ramabhadra&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	width: 100%;
+	height: 100%;	
+}
+
+body{
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color:  #F2F0E9;
+	width: 100%;
+	height: 100%;
+	
+}
+a{
+	color: black;
+	display: block;
+	padding: 3px;
+	text-decoration: none;
+}
+
+nav {
+	position: fixed;
+	display: inline-block;
+	top: 0;
+	width: 100vw;
+	background-color:#F2F0E9;
+	color: black;
+	font-family: serif;
+	font-size: 2vh;
+	z-index: 1;	
+
+}
+
+nav > div {
+	padding: 2vh;
+	width: 16.5vw;
+	text-align: center;
+	display: inline;
+	float: left;
+}
+
+		
+nav > div :hover{
+	background-color: #F2F0E9;
+	color: #333333;
+	border-bottom: 2px solid black;
+
+}
+
+div#line{
+	position: absolute;
+	margin-top: 15vh;
+	margin-left: 5vw;
+	height: 60vh;
+	width: 0.1vw;
+	background-color: black;
+}
+
+.art1{
+	background-color:  #F2F0E9;
+	height: 50vh;
+	width: 100vw;
+	display: inline-block;
+	margin-top: 10vh;
+}
+
+.art11{
+	background-color:  #F2F0E9;
+	float: left;
+	height: 47vh;
+	width: 40vw;
+	margin-left: 15vw;
+}
+
+.art12{
+	background-color: #E1E1D7;
+	float: right;
+	height: 90vh;
+	width: 30vw;
+	padding: 10vh;
+	font-family: 'Hind Madurai', sans-serif;
+	line-height: 3vh;
+	margin-right: 15vw;
+}
+
+
+
+p+p{
+	margin-top: 2vh;
+}
+
+.line{
+	height:1px;
+	width:80vw;
+	margin: 8vh 10vw 0;
+	background-color: black;
+}
