@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Viga&display=Cormorant+Garamond&Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=Archivo+Black&family=Viga&display=Cormorant+Garamond&Nanum+Myeongjo&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -18,6 +18,8 @@ body{
 	height: 100%;
 	
 }
+
+
 a{
 	color: black;
 	display: block;
@@ -64,8 +66,8 @@ h1 {
 
 h3 {
 	position: fixed;
-	margin-top: 60px;
-	left: 1vw;
+	margin-top: 100px;
+	left: 0.3vw;
 	font-size: 1.8vh;
 	letter-spacing: 2.7px;
 	transform: rotate(270deg);
@@ -81,27 +83,28 @@ h2 {
 	font-family:  Cormorant Garamond, serif;
 }
 
-section#line{
+.line{  /*頁面分隔線*/
+       
 	height:1px;
 	width:80vw;
 	margin: 8vh 10vw 0;
 	background-color: black;
 }
 
-.background{
+.background{ /*每個分頁出現的第一張大圖*/
 	width: 80vw;
 	height: 78vh;
 	margin-top: 3vh;
 	margin-left: 10vw;
 }
 
-div#container{
+div#container{  /*大圖旁邊的文字塊*/
 	position: absolute;
 	text-align: left;
 	height: 40vh;
 	width:30vw;
-	margin-left: 530px;
-	top: 250px;
+	margin-left: 700px;
+	top: 380px;
 	background-color: white;
 	opacity: 0.8;
 	box-shadow: 2px 4px 8px #656565;
@@ -110,16 +113,15 @@ div#container{
 	font-size: 1.8vh;
 	font-family: font-family: 'Nanum Myeongjo', serif;
 	letter-spacing: 1.3px;
-	text-align: center;
 }
-section#line2{
+section#line2{ /*頁面分隔線*/
 	height:1px;
 	width:80vw;
 	margin: 7vh 10vw 0;
 	background-color: black;
 }
 
-.onetwo{
+.onetwo{ /*包含頭兩張（可以點進分頁連結）照片的方塊*/
 	display: inline-block;
 	width: 70vw;
 	height: 500px;
@@ -129,7 +131,7 @@ section#line2{
 	overflow: hidden;
 }
 
-.threefour{
+.threefour{ /*包含中間兩張（可以點進分頁連結）照片的方塊*/
 	display: inline-block;
 	width: 70vw;
 	height: 500px;
@@ -139,7 +141,7 @@ section#line2{
 	overflow: hidden;	
 }
 
-.five{
+.five{ /*包含最後一張（可以點進分頁連結）照片的方塊*/
 	display: inline-block;
 	width: 70vw;
 	height: 560px;
@@ -150,10 +152,6 @@ section#line2{
 	overflow: hidden;	
 }
 
-img{
-  max-width: 100%;
-  max-height: 100%;
-}
 div#pictured{
 	width: 480px;
 	height: 480px;
@@ -214,6 +212,7 @@ div#picture5d{
 
 div#pictured:hover{
 	opacity: 0.8;
+	transition: all 0.5s linear;
 }
 
 div#picture2d:hover{
@@ -233,80 +232,249 @@ div#picture5d:hover{
 }
 
 
-div#container2 {
-	position: fixed;
-	text-align: center;
+div#container2 { /*含bio文字的div */
 	height: 100%;
-	width:85%;
-	margin-left: 15%;
-	margin-top: 7%;
-	background-color: #F4F2EC;
-	color: black;
-	padding: 40px 40px;
+	width:100%;
+	background-color:#F2F0E9;
+	display: inline-block;
+	overflow: hidden;
+}
+
+section#bio{ /*bio文字*/
+	height: 100%;
+	width: 50vw;
+	padding: 40px;
 	font-family: sans-serif;
+	color:black;
+	background-color: #F2F0E9;
+	font-size: 2.0vh;
+	letter-spacing: 0.6px;
+	line-height: 2.7vh;
+	float: left;	
 }
-
-div#home{
+h4 { 
+	margin-top: 5vh;
+	margin-bottom: 3vh;
 	text-align: center;
-	height: 50%;
-	width: 30%;
-	margin-left: 20%;
-	margin-top: 8%;
-
-}
-
-div#home2{
-	text-align: center;
-	height: 50%;
-	width: 30%;
-	margin-left: 20%;
-	margin-top: 3%;
-
-}
-
-div#home3{
-	text-align: center;
-	height: 50%;
-	width: 30%;
-	margin-left: 20%;
-	margin-top: 3%;
-}
-section#Renaissance{
-	background-color: #0B1A2F;
-	color: white;
-	border: 4px solid #C4D5D1;
-	height: 10%;
-	width: 70%;
-	margin-left: 20%;
-	margin-top: 10%;
-	text-align: center;
-	padding: 20px 5px;
-	font-size: 4vh;
 	font-family: Cormorant Garamond, serif;
+	font-size: 4.8vh;
+	letter-spacing: 2.4px;
 }
-section#Romanticism{
-	background-color: #0B1A2F;
+
+p+p{ /*加寬bio文字兩段paragraph之間的距離*/
+	margin-top: 2vh;
+}
+
+section#books{ /*bio右側照片*/
+	height: 100%;
+	width: 50vw;
+	background-color: #F2F0E9;
+	float: right;
+}
+
+h5 {
+	position: fixed;
+	margin-top: 200px;
+	right: 0.3vw;
+	font-size: 1.8vh;
+	letter-spacing: 2.7px;
+	transform: rotate(90deg);
 	color: white;
-	border: 4px solid #C4D5D1;
-	height: 15%;
-	width: 70%;
-	margin-left: 20%;
-	margin-top: 10%;
-	text-align: center;
-	padding: 20px 5px;
-	font-size: 4vh;
-	font-family: Cormorant Garamond, serif;
 }
-section#modern{
-	background-color: #0B1A2F;
+
+div#ren{
+	margin-top: 15vh;
+	margin-left: 20vw;
+	color: black;
+	font-family: 'Ramabhadra', sans-serif;
+	font-size: 1.4vh;
+	letter-spacing: 1.4px;
+}
+
+h6{
+	margin-top: 1vh;
+	margin-left: 20vw;
+	font-family:  Cormorant Garamond, serif;
+	font-size: 10vh;
+	letter-spacing: 2.2px;
+
+}
+
+.ren3{ /*分頁介紹的第一個的畫作*/
+	background-color: #F2F0E9;
+	height: 30vh;
+	width: 94vw;
+	margin-top: 5vh;
+	margin-left: 3vw;
+	margin-right: 3vw: 
+	display: inline-block;
+}
+
+.trans{ /*分頁介紹的第一個的畫作照片*/
+	float: left;
+	height: 30vh;
+	width: 23vw;
+}
+
+.words{ /*分頁介紹的第一個的畫作標題*/
+	background-color: #FFAC00;
+	float: right;
+	height: 30vh;
+	width: 70.5vw;
+	padding-top: 10vh;
+	padding-left: 10vw;
+	font-family:  Cormorant Garamond, serif;
+	font-size: 3.5vh;
+
+}
+
+.button{ /*分頁介紹的第一個的畫作箭頭*/
+	background-color:#FFAC00;
+	margin-right:7vw;
+	margin-top: 5vh;
+	text-align: right;
+	font-size: 3vh;
+}
+
+.trans:hover{
+	opacity: 0.8;
+}
+
+.words:hover{
+	opacity: 0.8;
+}
+
+.ren4{ /*分頁介紹的第二個的畫作*/
+	background-color: #C7BAA7;
+	height: 30vh;
+	width: 93.6vw;
+	margin-left: 3.15vw;
+	margin-right: 3vw: 
+	display: inline-block;
+}
+
+.trans1{ /*分頁介紹的第二個的畫作照片*/
+	float: right;
+	height: 29.8vh;
+	width: 33vw;
+}
+
+.trans1rom{
+	float: right;
+	height: 29.8vh;
+	width: 11vw;
+}
+
+.words1{ /*分頁介紹的第二個的畫作標題*/
+	float: left;
+	height: 30vh;
+	width: 30vw;
+	padding-top: 7vh;
+	padding-left: 5vw;
+	font-family:  Cormorant Garamond, serif;
+	font-size: 3.5vh;
+
+}
+
+.button1{ /*分頁介紹的第二個的畫作箭頭*/
+	background-color:#C7BAA7;
+	text-align: left;
+	font-size: 3vh;
+	margin-left:0.1vw; 
+	margin-top: 6.5vh;
+}
+
+.trans1:hover{
+	opacity: 0.8;
+}
+
+.words1:hover{
+	opacity: 0.8;
+}
+
+.trans2{
+	float: left;
+	height: 30vh;
+	width: 20vw;
+}
+
+.words2{
+	background-color: #091E39;
 	color: white;
-	border: 4px solid #C4D5D1;
-	height: 20%;
-	width: 70%;
-	margin-left: 20%;
-	margin-top: 10%;
-	text-align: center;
-	padding: 20px 5px;
-	font-size: 4vh;
-	font-family: Cormorant Garamond, serif;
+	float: right;
+	height: 30vh;
+	width: 73.5vw;
+	padding-top: 10vh;
+	padding-left: 10vw;
+	font-family:  Cormorant Garamond, serif;
+	font-size: 3.5vh;
+
 }
+
+.button2{
+	background-color:#091E39;
+	color: white;
+	margin-right:7vw;
+	margin-top: 5vh;
+	text-align: right;
+	font-size: 3vh;
+}
+
+.trans2:hover{
+	opacity: 0.8;
+}
+
+.words2:hover{
+	opacity: 0.8;
+}
+
+.background1{
+	width: 70vw;
+	height: 90vh;
+	margin-top: 1vh;
+	margin-left: 15vw;
+}
+
+.line1{
+	position: absolute;
+	height:0.6vh;
+	width:40vw;
+	margin-top: 5vh;
+	margin-left:40vw;
+	background-color: black;
+}
+
+div#others{
+	display: inline-block;
+	height: 100vh;
+	width: 100vw;
+}
+
+section#titleo{
+	margin-top: 16vh;
+	padding: 14vw;
+	float: left;
+	font-size: 6vh;
+	height: 100vh;
+	width: 50vw;
+}
+
+
+section#pic0{
+	float: right;
+	height: 100vh;
+	width: 50vw;
+}
+
+h8{
+	font-size: 10vh;
+	margin-top: 20vh;
+	padding: 5vw;
+}
+
+div#o2{
+	width: 40vw;
+	margin-top: 2vh;
+	margin-left: 5vw;
+}
+
