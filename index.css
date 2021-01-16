@@ -313,14 +313,14 @@ h6{
 .trans{ /*分頁介紹的第一個的畫作照片*/
 	float: left;
 	height: 30vh;
-	width: 23vw;
+	width: 28vw;
 }
 
 .words{ /*分頁介紹的第一個的畫作標題*/
 	background-color: #FFAC00;
 	float: right;
 	height: 30vh;
-	width: 70.5vw;
+	width: 65.5vw;
 	padding-top: 10vh;
 	padding-left: 10vw;
 	font-family:  Cormorant Garamond, serif;
