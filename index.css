@@ -260,18 +260,14 @@ h4 {
 	font-size: 4.8vh;
 	letter-spacing: 2.4px;
 }
-p{
-	font-size: 2.2vh;
-	color: black;
-	font-family: Cormorant Garamond, serif;
-}
+
 p+p{ /*加寬bio文字兩段paragraph之間的距離*/
 	margin-top: 2vh;
 }
 
 section#books{ /*bio右側照片*/
 	height: 100%;
-	width: 50vw;
+	width: 40vw;
 	background-color: #F2F0E9;
 	float: right;
 }
