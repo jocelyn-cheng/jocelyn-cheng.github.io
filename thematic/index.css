@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bodoni+Moda&family=Francois+One&display=Rozha+One&displaySedgwick+Ave&display==swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	list-style: none;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #E0DDCE;
+}
+
+div#translation{
+	background-color: black;
+	color: white;
+	height: 5vh;
+	width: 10vw;
+	text-align: center;
+	padding: 1vh;
+	font-size: 1.8vh;
+	margin-left: 22vw;
+	margin-top: 2vh;
+}
+
+div#title{
+display: inline-block;
+}
+
+section#title1{
+	float: left;
+	height: 30vh;
+	width: 20vw;
+	background-color: #9DC7BC;
+	color: #254441;
+	text-align: center;
+	font-size: 3vh;
+	padding: 8vh 2vw;
+	font-family: 'Francois One', sans-serif;
+}
+
+section#title2{
+	float:right;
+	height:28vh;
+	width: 80vw;
+	margin-left: 0vw;
+	background-color: #F0EEE7;
+	border-bottom : 5px solid #9DC7BC; 
+	box-shadow: 2px 4px 8px #656565; 
+	font-size: 4vh;
+	font-family:  'Rozha One', serif;
+	font-weight: bold;
+	padding-left: 10vw;
+	padding-top: 10vh;
+
+
+}
+
+a {
+	color: black;
+	display: block;
+	text-decoration: none;
+}
+	
+
+nav {
+	position: fixed;
+	width: 20vw;
+	height: 50vh;
+	background-color: #F0EEE7;
+	padding: 2.5vw;
+	color: black;
+	font-family: 'Bodoni Moda', serif;
+	font-size: 2.5vh;
+	margin-top: 
+}
+nav > div {
+	display: block;
+	width: 15vw;
+	height: 5vh;
+	text-align: center;
+	margin-top: 3vh;
+
+}
+
+nav > div:hover{
+	background-color: #F0EEE7;
+	color: black;
+	border-bottom: 4px solid  #9DC7BC ;
+}
+.picture{
+	width: 35vw;
+	margin-top: 1vh;
+	margin-left: 50vw;
+}
+.tab{
+	height: 5vh;
+	width: 10vw;
+	background-color: #F6C234;
+	margin-left: 75vw;
+	padding: 5px;
+	font-family: 'Sedgwick Ave', cursive;
+	font-weight: bold;
+}
+div#intro{
+	height: 80vh;
+	width: 50vw;
+	margin-left: 35vw;
+	background-color: white;
+	padding: 20px;
+	line-height: 3.5vh; 
+	border-right: 3px solid #F6C234;
+	box-shadow: 2px 4px 8px #656565;
+
+}
+h1{
+	font-size: 3vh;
+}
+
+div#RenaissanceArt{
+	height: 130vh;
+	width: 50vw;
+	margin-left: 30vw;
+	background-color: white;
+	padding: 20px;
+	line-height: 3.5vh; 
+	border-top: 5px solid #F25748;
+	box-shadow: 2px 4px 8px #656565;
+
+}
+
+
+div#RomanticismArt{
+	height: 110vh;
+	width: 60vw;
+	margin-left: 30vw;
+	background-color: white;
+	padding: 20px;
+	line-height: 3.5vh; 
+	border-top: 5px solid #F68DB1;
+	box-shadow: 2px 4px 8px #656565;
+
+}
+
+
+div#ModernArt{
+	height: 90vh;
+	width: 45vw;
+	margin-left: 33vw;
+	background-color: white;
+	padding: 20px;
+	line-height: 3.5vh; 
+	border-left: 5px solid #2F5072;
+	box-shadow: 2px 4px 8px #656565;
+
+}
+
+div#ArtToday{
+	height: 65vh;
+	width: 45vw;
+	margin-left: 28vw;
+	background-color: white;
+	padding: 20px;
+	line-height: 3.5vh; 
+	border-right: 2px solid #115128;
+	box-shadow: 2px 4px 8px #656565;
+	margin-inline-end: 20px;
+
+}
