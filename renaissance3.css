@@ -89,6 +89,7 @@ div#line{
 	margin-right:5vw; 
 	font-family: 'Hind Madurai', sans-serif;
 	line-height: 3vh;
+	border-top: 4px solid orange;
 
 }
 
